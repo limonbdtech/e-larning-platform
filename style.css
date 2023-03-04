@@ -1,0 +1,172 @@
+header{
+    background-color: #e6f6e6;
+ 
+}
+
+.navbar-brand img{
+    width: 200px;
+}
+
+.nab-item{
+
+    width: 66px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+}
+.my-btn{
+   border-radius: 20px 20px 20px 20px; 
+   padding-left:10px;
+   padding-right: 10px;
+   display: inline-block;
+   background-color:  #21B573;
+   color: #ffffff;
+
+}
+.sing a{
+    color: #ffffff;
+  
+   
+}
+
+/*  ene nav section */
+
+
+/* learn frame */
+.learn-group{
+   justify-content: space-between;
+}
+.learn{
+    background-color: #F8FFFB;
+    text-align: center;
+    padding-top: 2.5rem;
+    width: 22%;
+    padding-bottom: 1rem;
+}
+
+.learn:hover{
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.learn img{
+    width: 75px;
+    padding-bottom:1rem ;
+  
+}
+
+@media only screen and (max-width: 776px) {
+    .learn-group{
+        gap: 3rem;
+        text-align: center;
+        align-items: center;
+    }
+    .learn{
+        width: 50%;
+    }
+    
+  }
+
+
+
+/* online course  */
+.card{
+   border: none;
+   border-radius: 10px;
+   background-color: #ffffff;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card img{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+.card-footer{
+    border: none;
+}
+
+.card-footer img{
+width: 20px;
+}
+.card-footer img {
+   
+   
+    margin-bottom: 10px;
+ 
+}
+
+/* Testimonial section */
+
+.header-text{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.testimonial-profile{
+    width: 25%;
+    
+}
+.testimonial-text{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 188% */
+     
+        
+        color: #000000;
+}
+
+.testimonial-box{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* foooter */
+
+footer{
+    background-color: #000000;
+}
+footer li{
+    color: #ffffff;
+}
+
+
+/* Copyright © 2020 Rokomari.com */
+.copyright{
+text-align: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+
+color: #CDCDCD;
+
+}
